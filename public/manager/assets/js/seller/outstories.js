@@ -1,0 +1,3 @@
+
+          $('#periodLiquidation').select2();
+     
