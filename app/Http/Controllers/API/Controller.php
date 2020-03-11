@@ -21,7 +21,7 @@ class Controller extends BaseController
      * @param $message
      * @return mixed
      */
-    public function sendResponse($result, $message)
+    public function sendResponse($result)
     {
         return Response::json(ResponseUtil::makeResponse($message, $result));
     }

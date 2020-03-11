@@ -27,10 +27,10 @@ Route::get('applications', 'API\ApplicationAPIController@index');
 Route::get('applications/{id}', 'API\ApplicationAPIController@show');
 //-------------
 Route::get('books', 'API\BookAPIController@index');
-Route::get('books/{id}', 'API\BookAPIController@show');
+Route::get('books/show/{id}', 'API\BookAPIController@show');
 //-------------
-Route::get('categoriest', 'API\CategoriesAPIController@index');
-Route::get('categories/{id}', 'API\CategoriesAPIController@show');
+Route::get('categories', 'API\CategoriesAPIController@index');
+Route::get('categories/show/{id}', 'API\CategoriesAPIController@show');
 //-------------
 Route::get('faculties', 'API\FacultiesAPIController@index');
 Route::get('faculties/{id}', 'API\FacultieAPIController@show');
